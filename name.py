@@ -8,5 +8,5 @@ response = s3.list_buckets()
 
 # Print bucket names
 for bucket in response['Buckets']:
-    print(bucket['Name'])
+    print(bucket)
 
